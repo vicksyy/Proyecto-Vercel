@@ -1,4 +1,5 @@
 import LightRays from '../components/LightRays'
+import SplitText from "../components/SplitText";
 
 
 
@@ -6,7 +7,7 @@ function App() {
 
   return (
     <>
-<div style={{ width: '100%', height: '600px', position: 'relative' }}>
+<div style={{ width: '100vw', height: '100vh', position: 'relative' }}>
   <LightRays
     raysOrigin="top-center"
     raysColor="#00ffff"
@@ -20,6 +21,26 @@ function App() {
     className="custom-rays"
   />
 </div>
+
+{/* const handleAnimationComplete = () => {
+  console.log('All letters have animated!');
+};
+
+<SplitText
+  text="Hello, GSAP!"
+  className="text-2xl font-semibold text-center"
+  delay={100}
+  duration={0.6}
+  ease="power3.out"
+  splitType="chars"
+  from={{ opacity: 0, y: 40 }}
+  to={{ opacity: 1, y: 0 }}
+  threshold={0.1}
+  rootMargin="-100px"
+  textAlign="center"
+  onLetterAnimationComplete={handleAnimationComplete}
+/> */}
+  <h1 className='h1-w grid'>Welcome to my first Deploy in Vercel</h1>
     </>
   )
 }

@@ -10,4 +10,12 @@ body{
     z-index: 3;
     overflow: hidden;
   }
+
+  .h1-w{
+    text-align: center;
+    align-items: center;
+    font-size: 4rem;
+    color: aliceblue;
+    
+  }
   
